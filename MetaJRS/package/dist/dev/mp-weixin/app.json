@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/join/join",
+    "pages/news/news",
+    "pages/jobs/jobs",
+    "pages/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "牛汽官网",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-fill.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品",
+        "iconPath": "static/icon/product.png",
+        "selectedIconPath": "static/icon/product-fill.png"
+      },
+      {
+        "pagePath": "pages/join/join",
+        "text": "加盟",
+        "iconPath": "static/icon/jobs.png",
+        "selectedIconPath": "static/icon/jobs-fill.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "static/icon/news.png",
+        "selectedIconPath": "static/icon/news-fill.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "static/icon/about.png",
+        "selectedIconPath": "static/icon/about-fill.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

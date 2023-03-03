@@ -1,0 +1,1 @@
+<view class="uni-badge--x"><slot></slot><block qq:if="{{text}}"><text data-event-opts="{{[['tap',[['onClick']]]]}}" class="{{['uni-badge',classNames]}}" style="{{$root.s0}}" bindtap="__e">{{displayValue}}</text></block></view>

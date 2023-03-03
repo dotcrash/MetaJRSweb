@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "资讯",
+  "usingComponents": {
+    "top-tabbar": "/components/top-tabbar/top-tabbar",
+    "team-activity": "/components/info/team",
+    "game-thing": "/components/info/game",
+    "projects": "/components/info/project"
+  }
+}

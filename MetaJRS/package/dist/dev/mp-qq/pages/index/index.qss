@@ -1,0 +1,222 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.m-banner {
+  width: 750rpx;
+  height: 400rpx;
+}
+.button-yuanjiao {
+  width: 300rpx;
+  height: 50rpx;
+  display: flex;
+  margin-top: 30rpx;
+  line-height: 50rpx;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: #25b0f3;
+  color: #ffffff;
+  /* 这里可以改成渐变： background:linear-gradient(to right, #FFDE28,#FF3228) */
+  font-size: 28rpx;
+}
+.bg-click {
+  background-color: #484a4b;
+}
+.g-bd {
+  background-color: #fff;
+}
+.m-bd {
+  padding: 20rpx 0;
+}
+.m-bd .title {
+  width: 320rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-bottom: 1rpx solid #d4d4d4;
+}
+.m-bd .title .u-tit {
+  font-size: 40rpx;
+  line-height: 80rpx;
+  font-weight: 700;
+}
+.m-bd .title .u-stit {
+  font-size: 24rpx;
+  line-height: 40rpx;
+  color: #ccc;
+}
+.m-bd .title .u-line {
+  width: 160rpx;
+  text-indent: -9999rpx;
+  position: absolute;
+  bottom: -4rpx;
+  height: 8rpx;
+  background-color: #f00;
+}
+.m-bd .i-about {
+  padding: 40rpx 35rpx;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1rpx solid #d4d4d4;
+}
+.m-bd .i-about .img-about {
+  width: 100%;
+  height: 372rpx;
+  border-radius: 15px;
+}
+.m-bd .i-about .about-con {
+  font-size: 32rpx;
+  text-indent: 2em;
+  padding: 20rpx 0;
+  line-height: 50rpx;
+}
+.m-bd .btn-more {
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  color: #fff;
+  text-align: center;
+  background-color: #f00;
+  border-radius: 10rpx;
+}
+.m-bd .g-product {
+  border-bottom: 1rpx solid #d4d4d4;
+}
+.m-bd .i-product {
+  padding: 40rpx 35rpx;
+  display: flex;
+  flex-direction: row;
+}
+.m-bd .i-product .pro-img {
+  display: flex;
+  justify-content: start;
+  line-height: 64rpx;
+  margin-right: 40rpx;
+}
+.m-bd .i-product .pro-img image {
+  width: 64rpx;
+  height: 64rpx;
+}
+.m-bd .i-product .pro-con {
+  display: flex;
+  flex-direction: column;
+}
+.m-bd .i-product .pro-con .pro-tit {
+  font-size: 40rpx;
+  line-height: 64rpx;
+}
+.m-bd .i-product .pro-con .pro-desc {
+  padding: 20rpx 0;
+  font-size: 32rpx;
+  line-height: 50rpx;
+  color: #9d9d9d;
+  display: flex;
+  flex-direction: column;
+  /* 允许在单词内换行。如果到一行末尾长单词没有结束会截断单词 拼接在下一行 */
+  word-break: break-all;
+  /* 在长单词或 URL 地址内部进行换行。 在一行末尾处遇到长单词会自动换行去下一行展示 */
+  word-wrap: break-word;
+  justify-content: center;
+}
+.m-bd .i-product .pro-con .btn-detail {
+  color: #f00;
+}
+.m-bd .g-service {
+  padding: 40rpx 35rpx;
+  border-bottom: 1rpx solid #d4d4d4;
+}
+.m-bd .i-service {
+  width: 100%;
+  height: 520rpx;
+  position: relative;
+  margin-bottom: 20rpx;
+}
+.m-bd .i-service .img-case {
+  width: 680rpx;
+  height: 520rpx;
+}
+.m-bd .i-service .u-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 50rpx;
+  width: 680rpx;
+  height: 520rpx;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.m-bd .i-service .u-mask .name {
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 100rpx;
+}
+.m-bd .i-service .u-mask .cont {
+  font-size: 28rpx;
+  text-indent: 2em;
+}
+.m-bd .i-service .u-mask text {
+  color: #f00;
+  font-weight: 700;
+}
+.m-bd .g-news {
+  padding: 40rpx 35rpx;
+  border-bottom: 1px solid #d4d4d4;
+}
+.m-bd .g-news .i-news {
+  width: 680rpx;
+}
+.m-bd .g-news .tit {
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.m-bd .g-news .img-news {
+  margin: 20rpx 0;
+}
+.m-bd .g-news .img-news image {
+  width: 680rpx;
+  height: 454rpx;
+}
+.m-bd .i-env {
+  margin: 40rpx 35rpx;
+  width: 680rpx;
+  display: flex;
+  flex-direction: column;
+}
+.m-bd .i-env .img-env {
+  margin: 20rpx 0;
+}
+.m-bd .i-env .img-env image {
+  width: 680rpx;
+  height: 680rpx;
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "留言墙",
+  "usingComponents": {
+    "chat": "/components/chat/chat"
+  }
+}

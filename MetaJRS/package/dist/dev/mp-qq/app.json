@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/add/add",
+    "pages/introduce/introduce",
+    "pages/chats/chats",
+    "pages/webview/web"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "MetaJRS官网",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#515151",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home.jpg",
+        "selectedIconPath": "static/icon/home-fill.jpg"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "static/icon/news.jpg",
+        "selectedIconPath": "static/icon/news-fill.jpg"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "留言",
+        "iconPath": "static/icon/post.jpg",
+        "selectedIconPath": "static/icon/post-fill.jpg"
+      },
+      {
+        "pagePath": "pages/introduce/introduce",
+        "text": "介绍",
+        "iconPath": "static/icon/intro.jpg",
+        "selectedIconPath": "static/icon/intro.jpg"
+      },
+      {
+        "pagePath": "pages/chats/chats",
+        "text": "论坛",
+        "iconPath": "static/icon/chat.jpg",
+        "selectedIconPath": "static/icon/chat-fill.jpg"
+      }
+    ]
+  },
+  "usingComponents": {
+    "fix-2648": "/fix-2648"
+  }
+}

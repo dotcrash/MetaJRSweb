@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "团队介绍",
+  "usingComponents": {
+    "top-tabbar": "/components/top-tabbar/top-tabbar",
+    "idea": "/components/introduce/idea",
+    "direct": "/components/introduce/direct",
+    "jobs": "/components/introduce/jobs"
+  }
+}
