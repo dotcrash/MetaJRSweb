@@ -1,0 +1,44 @@
+.g-hd{
+	.m-banner{
+		image{
+			width: 750upx;
+			height: 400upx;
+		}
+	}
+	.m-video{
+		.u-video{
+			width: 750upx;
+			height: 312upx;
+		}
+	}
+}
+
+.g-bd{}
+.uni-top-tabbar {
+		/* 以下3项设置用于开启底部阴影显示 */
+		/* position: relative;
+		z-index: 1;
+		overflow: visible; */
+	
+		.uni-swiper-tab {
+			height: 100rpx;
+			//设置底部阴影
+			//box-shadow: rgba(170, 170, 170, 0.5) 0 2rpx 8rpx 0;
+	
+			.swiper-tab-list {
+				font-size: 28rpx;
+				font-weight: normal;
+				line-height: 82rpx;
+				//设置标签宽度
+				width: 22%;
+			}
+	
+			.active {
+				.swiper-tab-line {
+					height: 6rpx;
+					width: 82rpx;
+					margin: auto;
+				}
+			}
+		}
+	}

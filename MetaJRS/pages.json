@@ -1,0 +1,136 @@
+{
+	// 页面路由配置
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus":{
+					// 禁用原生导航栏
+					"titleNView": false
+				}
+			}
+		}
+		,
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "资讯",
+				"app-plus":{
+					// 禁用原生导航栏
+					"titleNView": false
+				}
+			}
+		},{
+			"path": "pages/add/add",
+			"style": {
+				"navigationBarTitleText": "宝贵建议",
+				"app-plus":{
+					// 禁用原生导航栏
+					"titleNView": false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/introduce/introduce",
+			"style": {
+				"navigationBarTitleText": "团队介绍",
+				"app-plus":{
+					// 禁用原生导航栏
+					"titleNView": false
+				}
+			}
+        }
+        /* ,{
+            "path" : "pages/jobs/jobs",
+			"style": {
+				"navigationBarTitleText": "人才招聘",
+				"app-plus":{
+					// 禁用原生导航栏
+					"titleNView": false
+				}
+			}
+        } */
+        ,{
+            "path" : "pages/chats/chats",
+			"style": {
+				"navigationBarTitleText": "留言墙",
+				"app-plus":{
+					// 禁用原生导航栏
+					"titleNView": false
+				}
+			}
+        },{
+            "path" : "pages/webview/web",
+			"style": {
+				"navigationBarTitleText": "下载界面",
+				"app-plus":{
+					// 禁用原生导航栏
+					"titleNView": false
+				}
+			}
+        }
+    ],
+	
+	// 全局配置
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "MetaJRS官网",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	// 底部导航栏
+	"tabBar":{
+		// 文字颜色
+		"color":"#bfbfbf",
+		// 文字选中颜色
+		"selectedColor":"#515151",
+		// 上边框样式
+		"borderStyle":"black",
+		// 背景色
+		"backgroundColor":"#FFFFFF",
+		"list":[
+			{
+				// 页面路径
+				"pagePath":"pages/index/index",
+				// tab标题
+				"text":"首页",
+				// 默认图标
+				"iconPath":"static/icon/home.jpg",
+				// 选中图标
+				"selectedIconPath":"static/icon/home-fill.jpg"
+			},
+			{
+				"pagePath":"pages/news/news",
+				"text":"资讯",
+				"iconPath":"static/icon/news.jpg",
+				"selectedIconPath":"static/icon/news-fill.jpg"
+			},
+			{
+				"pagePath":"pages/add/add",
+				"text":"留言",
+				
+				"iconPath":"static/icon/post.jpg",
+				"selectedIconPath":"static/icon/post-fill.jpg"
+			},
+			{
+				"pagePath":"pages/introduce/introduce",
+				"text":"介绍",
+				"iconPath":"static/icon/intro.jpg",
+				"selectedIconPath":"static/icon/intro.jpg"
+			},
+			// {
+			// 	"pagePath":"pages/jobs/jobs",
+			// 	"text":"招聘",
+			// 	"iconPath":"static/icon/jobs.jpg",
+			// 	"selectedIconPath":"static/icon/jobs-fill.jpg"
+			// },
+			{
+				"pagePath":"pages/chats/chats",
+				"text":"论坛",
+				"iconPath":"static/icon/chat.jpg",
+				"selectedIconPath":"static/icon/chat-fill.jpg"
+			}
+		]
+	}
+}
