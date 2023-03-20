@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bhCommons" />
+        <module name="bhAdmin" />
+        <module name="bhUtils" />
+        <module name="bhfront" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bhAdmin" target="11" />
+      <module name="bhBase" target="1.8" />
+      <module name="bhCommons" target="1.8" />
+      <module name="bhfront" target="1.8" />
+      <module name="bhUtils" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bhAdmin" options="-parameters" />
+      <module name="bhCommons" options="-parameters" />
+      <module name="bhUtils" options="-parameters" />
+      <module name="bhfront" options="-parameters" />
+    </option>
+  </component>
+</project>
