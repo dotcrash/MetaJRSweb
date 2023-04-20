@@ -1,0 +1,144 @@
+/* 轮播图样式开始 */
+.banner {
+  height: 295rpx;
+  width: 100%;
+}
+
+.banner image {
+  height: 295rpx;
+  width: 100%;
+}
+/* 轮播图样式结束 */
+view>picker{
+  width: 100%;
+  height: 64rpx;
+  background-color: aqua;
+  font: 300 42rpx '楷体';
+  border-radius: 9%;
+}
+view>button{
+  width: 100%;
+  background-color: aquamarine;
+  font-size: 30rpx;
+  height: 60rpx;
+}
+
+.main {
+  background: #efefef;
+  height: calc(100vh - calc(100vw/1080*520));
+  width: 100vw;
+
+}
+
+.left {
+  width: 25%;
+  float: left;
+  border-right: 1px solid #666;
+  height: calc(100vh - calc(100vw/1080*520));
+  box-sizing: border-box;
+}
+
+
+.left view{
+  border-bottom: 1rpx solid #666;
+  background: #fff;
+  height: 100rpx;
+  line-height: 80rpx;
+  text-align: center;
+  position: relative;
+  font: 300 45rpx '黑体';
+  padding-top: 25rpx;
+}
+
+.left view::before{
+  content: '';
+  background: #fff;
+  /* border-left: 8rpx; */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8rpx;
+
+}
+.left view.active::before{
+  background: #333999;
+}
+
+.right{
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 75%;
+  padding: 0  10rpx;
+  box-sizing: border-box;
+  height: calc(100vh - calc(100vw/1080*520));
+}
+.right_title{
+  height: 70rpx;
+  line-height: 70rpx;
+  font: 400 45rpx '黑体';
+}
+.right-flex{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.content {
+  background: rgb(235, 229, 229);
+  width: 48%;
+  padding: 10rpx;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.content  image{
+  width: 90%;
+}
+
+
+.content  text{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+}
+
+
+/* 位置信息显示样式开始 */
+#remain-position {
+  /* font-size: 24rpx; */
+  /* display: block; */
+  margin-top: 15rpx;
+}
+/* 位置信息显示样式结束 */
+
+/* 窗口样式开始 */
+/* .windows-eat-item{
+  margin-top: 30rpx;
+  display: flex;
+}
+
+.windows-eat-image{
+  width: 450rpx;
+  height: 260rpx;
+} */
+
+.windows-eat-item-hover{
+  background-color: #ccc;
+}
+/* 窗口样式结束 */
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40rpx;
+}
+
+.info-name{
+  font-weight: bold;
+  font-size: 50rpx;
+  color: red;
+}
